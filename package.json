@@ -1,0 +1,24 @@
+{
+  "name": "mini-project",
+  "version": "1.0.0",
+  "description": "mini-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.3.9",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jose": "^3.15.4",
+    "jose-node-cjs-runtime": "^3.15.4",
+    "jose-node-esm-runtime": "^3.15.4",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "passport-saml": "^3.1.1"
+  }
+}
